@@ -5,6 +5,7 @@ using UnityEngine;
 public class BallControl : MonoBehaviour
 {
     public Vector2 speed;
+    public Vector2 resetPosition;
     private Rigidbody2D  rig;
     
     void Start()
@@ -14,9 +15,9 @@ public class BallControl : MonoBehaviour
     }
         
     
-    void Update()
+    public void ResetBall()
     {
-        
+        transform.position = resetPosition;
 
     }
 }

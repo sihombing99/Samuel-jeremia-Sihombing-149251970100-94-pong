@@ -34,7 +34,7 @@ public class Pemain : MonoBehaviour
     private void MoveObject(Vector2 movement)
     {
         rig.velocity = movement;
-        Debug.Log("pamain ="+ movement);
+        Debug.Log("pamain =" + movement);
     }
 }
 

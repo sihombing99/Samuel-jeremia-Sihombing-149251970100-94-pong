@@ -18,6 +18,10 @@ public class BallControl : MonoBehaviour
     public void ResetBall()
     {
         transform.position = resetPosition;
-
+        rig.velocity = speed;
+    }
+    public void ActivatePUspeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
     }
 }

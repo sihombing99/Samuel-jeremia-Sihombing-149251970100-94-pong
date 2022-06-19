@@ -7,7 +7,8 @@ public class Power : MonoBehaviour
     public Transform areaMuncul;
     public int maxPowerUpAmount;
     public int spawnInterval;
-    
+    public Pemain lastHitPlayer;
+    [HideInInspector]
     public Vector2 LetakSkilMin;
     public Vector2 LetakSkilMax;
 

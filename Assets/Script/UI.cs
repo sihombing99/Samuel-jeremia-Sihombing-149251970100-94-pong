@@ -15,4 +15,12 @@ public class UI : MonoBehaviour
         SceneManager.LoadScene("Pong");
         Debug.Log("Created by Samuel-jeremia-Sihombing-149251970100-94");
     }
+    public void menu()
+    {
+        SceneManager.LoadScene("Ui");
+    }
+    public void Credit()
+    {
+        SceneManager.LoadScene("Credit");
+    }
 }

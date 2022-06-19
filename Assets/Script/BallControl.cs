@@ -8,6 +8,7 @@ public class BallControl : MonoBehaviour
     public Vector2 resetPosition;
     private Rigidbody2D  rig;
     
+    
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -24,4 +25,5 @@ public class BallControl : MonoBehaviour
     {
         rig.velocity *= magnitude;
     }
+    
 }
